@@ -1,0 +1,182 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.news {
+	    width: 32%;
+	    margin-right: 2%;
+	}
+	.small_avatar {
+	    width: 20%;
+	}
+	.articles p {
+	    width: 77%;
+	    margin-left: 3%;
+	}	
+	.main-header {
+	    max-height: 100%;
+	    padding: 0 30px 50px;
+	}
+	h1 {
+		font-family: "RockwellRegular";
+		margin-top: 73px;
+	}
+	.carousel {
+	    margin-top: 38px;
+	}
+	.news-text {
+	    padding: 0 0 0 5px;
+	}
+	.news-text header {
+	    font-size: 18px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.news {
+	    width: 100%;
+	    max-width: 100%;
+	    margin-right: 0;
+	    margin-bottom: 20px;
+	}
+	.about-us {
+	    padding-bottom: 35px;
+	}
+	.copyright {
+	    position: absolute;
+	    bottom: 10px;
+	    right: 15px;
+	}
+	.articles p.info {
+	    float: left;
+	}
+	.main-footer .news {
+	    margin-bottom: 0;
+	}
+
+	.main-header .main-menu {
+		display: none;
+		margin-left: 0;
+	    z-index: 200;
+	    position: relative;
+	    width: 172px;
+	    position: absolute;
+	    background: rgba(255, 255, 255, .9);
+	    opacity: 0;
+	    padding: 50% 12px 3px;
+	    right: 51px;
+	    right: 0;
+	    top: 0;
+	    width: 100%;
+	    height: 100%;
+	    z-index: 200;
+	}
+	.main-header .show {
+		display: block;
+		opacity: 1;
+	}
+	.main-header .main-menu li {
+	    display: inline-block;
+	    width: 100%;
+	    margin-left: 0;
+	}
+	.main-menu li a, .main-menu li a.active-page{
+	    color: #3b3b3b;
+	    font-size: 18px;
+	    width: 100%;
+	    text-align: center;
+	    display: inline-block;
+	    padding: 6px 0;
+	    font-weight: bold;
+	}
+	.main-header .main-menu li:last-child {
+	    border-bottom: none;
+	}
+	.top-header {
+	    padding-top: 23px;
+	}
+	.carousel {
+	    margin-top: 10px;
+	}
+	.main-header {
+	    padding: 0 0 24px;
+	}
+	.cover-button {
+	    margin: 35px 0;
+	}
+	h1 {
+	    font-size: 24px;
+		margin-top: 45px;
+	}
+	.news-text {
+	    padding: 0;
+	}
+}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width : 480px) {
+	.articles p.info {
+	    float: right;
+	}
+	.copyright {
+	    font-size: 9px;
+	}
+	.main-footer {
+	    margin-top: 0;
+	}
+	h1 {
+	    margin-top: 30px;
+	    font-size: 22px;
+	}
+	.cover-button {
+	    margin: 20px 0 25px;
+	}
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 769px) {
+	.sandwich {
+	    display: none;
+	}
+	.main-menu {
+		display: block !important;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+}

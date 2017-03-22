@@ -1,0 +1,28 @@
+@font-face {
+    font-family: BerlinSansFB;
+    src: url(../fonts/BRLNSR.ttf);
+}
+@font-face {
+    font-family: LucidaGrande;
+    src: url(../fonts/LucidaGrande.ttf);
+}
+
+@font-face {
+    font-family: "RockwellRegular";
+    src: url("../fonts/RockwellRegular/RockwellRegular.eot");
+    src: url("../fonts/RockwellRegular/RockwellRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RockwellRegular/RockwellRegular.woff") format("woff"),
+    url("../fonts/RockwellRegular/RockwellRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProBold"; */
+@font-face {
+    font-family: "MyriadProBold";
+    src: url("../fonts/MyriadProBold/MyriadProBold.eot");
+    src: url("../fonts/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
+    url("../fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
